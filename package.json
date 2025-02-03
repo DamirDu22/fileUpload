@@ -1,0 +1,15 @@
+{
+    "name": "my-azure-upload-app",
+    "version": "1.0.0",
+    "description": "A simple Node.js web app to upload files to Azure Blob Storage via SAS",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "@azure/storage-blob": "*", 
+      "dotenv": "*",
+      "express": "*",
+      "uuid": "*"
+    }
+  }
